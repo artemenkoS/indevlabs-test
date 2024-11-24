@@ -1,0 +1,13 @@
+.todoList {
+    list-style-type: none;
+    padding: 0;
+    height: 700px;
+    overflow: auto;
+    margin: auto;
+}
+.emptyMessage {
+    text-align: center;
+    color: #888;
+    font-size: 64px;
+    margin: 20px 0;
+}

@@ -1,0 +1,29 @@
+.todoItem {
+    display: flex;
+    justify-content: space-between;
+    gap:10px;
+    align-items: center;
+    padding: 10px;
+    background-color: #f9f9f9;
+    margin: 5px 0;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.todoTitle.completed {
+    text-decoration: line-through;
+    background-color: #d3ffd3;
+}
+
+.deleteButton {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.deleteButton:hover {
+    background-color: #e60000;
+}
